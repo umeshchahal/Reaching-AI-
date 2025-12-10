@@ -1,0 +1,130 @@
+🔥 Deep Learning (DL) Complete Map
+
+Deep Learning = a subfield of ML using Neural Networks with many layers.
+
+DL learns features automatically → no manual feature engineering needed like traditional ML.
+
+
+1️⃣ Core Building Block → Artificial Neural Network (ANN / MLP)
+
+The foundation for all DL models.
+
+Concept	                Meaning
+Neuron	                Takes input → applies weight → passes through activation
+Layer	                  Group of neurons (input, hidden, output)
+Forward                 Propagation	Passing input through layers
+Loss Function	          Measures prediction error
+Backpropagation	        Adjusts weights to reduce loss
+Optimizer	              Updates weights (SGD, Adam)
+Epoch	                  One full pass over training data
+Batch Size	            Samples processed at once
+
+
+🔗 ANN used for: basic classification/regression when data is structured/tabular.
+
+2️⃣ Deep Learning Types
+A. Feedforward Networks (ANN/MLP)
+B. Convolutional Neural Networks (CNN) – Images
+C. Recurrent Models (RNN, LSTM, GRU) – Sequences
+D. Transformers – Modern NLP + Multimodal + Vision
+E. Generative Models (GANs, VAEs, Diffusion)
+
+A) Feedforward / Dense Neural Networks
+Algorithms:
+Model	                          Use
+Perceptron	                    Simplest neuron model
+Multi-Layer                     Perceptron (MLP)	Base for ANN
+Deep Neural Network (DNN)	      MLP with many layers
+
+Used for:
+✔ Tabular Data
+✔ Basic classification/regression
+✔ Feature extraction base for other models
+
+Activation functions:
+
+Sigmoid
+
+ReLU (most common)
+
+LeakyReLU
+
+Softmax (for multi-class output)
+
+
+
+B) Convolutional Neural Networks (CNN)
+
+Best for image processing & spatial patterns.
+
+Key Concepts:
+Layer	                               Role
+Convolution	                         Feature detection (edges, shapes)
+Filter/Kernels	                     Sliding windows for feature extraction
+Pooling (Max/Average)	               Downsampling
+Feature Maps	                       Structured pattern output
+
+CNN Models:
+Model	                            Use
+LeNet                           	Handwritten digit recognition
+AlexNet	                          First major deep CNN
+VGG16/VGG19	                      Deep stack of conv layers
+GoogLeNet (Inception)	            Parallel filters (Inception module)
+ResNet	                          Residual connections → very deep networks
+MobileNet/EfficientNet	          Lightweight, mobile-oriented
+YOLO	                            Real-time object detection
+U-Net	                            Medical image segmentation
+
+CNN solves:
+✔ Classification
+✔ Detection
+✔ Segmentation
+
+
+
+C) Recurrent Neural Networks (RNN) for Sequences
+
+Good for time-dependent data (text, speech, time-series).
+
+Types:
+Model	                   Works For
+RNN	                     Sequential short memory
+LSTM	                   Long-term dependencies
+GRU	                     Faster than LSTM, similar power
+Bi-directional LSTM	     Reads forward + backward
+
+Used in:
+✔ Text generation
+✔ Sentiment classification
+✔ Speech recognition
+✔ Stock/time-series forecasting
+
+But — RNN/LSTM are being replaced by Transformers.
+
+
+D) Transformers (Most powerful modern DL family)
+
+This is the backbone of GenAI, LLMs like GPT, BERT, etc.
+
+Key Concepts:
+Concept                               	Meaning
+Self Attention	                        Model focuses on important words in sentence
+Multi-head Attention	                  Multiple attention layers learn differently
+Positional Encoding	                    Keeps sequence order
+Encoder/Decoder	                        Input understanding + output generation
+
+
+Transformer Models:
+Type	                       Examples
+Encoder-only	               BERT, RoBERTa
+Decoder-only	               GPT, LLaMA
+Encoder-Decoder	             T5, BART
+
+Used in:
+🔥 ChatGPT-like LLMs
+🔥 Machine Translation
+🔥 RAG systems
+🔥 Document QA
+🔥 Vision Transformers (ViT) for images
+
+Transformers ≫ RNN/LSTM for text.
