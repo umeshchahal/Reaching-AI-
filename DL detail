@@ -128,3 +128,26 @@ Used in:
 🔥 Vision Transformers (ViT) for images
 
 Transformers ≫ RNN/LSTM for text.
+
+E) Generative Models (Create new Data)
+Model	                                     Generates
+GANs (Generator + Discriminator)	         Images, deepfakes
+Variational AutoEncoder (VAE)	             Latent compressed representation
+Diffusion Models	                         Stable Diffusion (image generation)
+AutoEncoders	                             Denoising, compression
+
+Used in:
+✔ AI Art
+✔ Synthetic medical data
+✔ Image super-resolution
+✔ Face generation, style transfer
+
+Deep Learning  Summary Table
+
+
+Family	                    Best For	             Key Models
+ANN/MLP	                    Tabular data	         DNN, MLP
+CNN	                         Images	               ResNet, VGG, YOLO
+RNN	                        Sequential data	       LSTM, GRU
+Transformers	              NLP/GenAI            	 BERT, GPT, T5
+Generative Models	          Create new content	   GAN, VAE, Diffusion
