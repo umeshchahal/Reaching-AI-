@@ -1,0 +1,38 @@
+💠 What is Generative AI?
+
+Generative AI = Models that create new content instead of just predicting.
+They generate:
+
+🧠 Text
+🖼️ Images
+🔊 Audio
+🎥 Video
+👾 Code
+📊 Data
+
+These models learn patterns from large datasets and then produce similar new examples.
+
+🔥 Generative AI Technology Stack
+Deep Learning → Transformers → LLMs → GenAI Applications
+
+
+Generative AI stands on top of Deep Learning + Transformers.
+
+1️⃣ Core Types of Generative Models
+Type	                                         What it generates	                         Example
+LLMs (Language Models)	                        Text, code, chat	                             GPT, LLaMA, Gemini
+Diffusion Models	                              Images, video	                                   Stable Diffusion, DALL·E
+GANs (Generative Adversarial Networks)	        Images, deepfakes	                              StyleGAN, CycleGAN
+VAEs (Variational Autoencoders)	                Latent compressed data	                        Face reconstruction
+Audio Models	                                  Speech, music	                                 Whisper, Suno AI
+Multimodal                                      Models	Text + image + audio together          	GPT-4o, Gemini 2.0
+
+
+8️⃣ GenAI Skills You Must Learn 🔥
+Category	                                    Skills Required
+Core DL	                                       Transformers, Attention, Embeddings
+LLM Work	                                     Fine-tuning, LoRA, Quantization
+RAG	                                           Vector DB, retrieval, pipelines
+Deployment	                                   FastAPI, Docker, HuggingFace Spaces
+Tools	                                         LangChain, LlamaIndex, HuggingFace Hub
+
