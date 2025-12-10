@@ -7,3 +7,123 @@ Machine Learning = Algorithms that learn patterns from data.
 5. Ensemble Learning (Part of Supervised but important separately)
 
 
+1️⃣ Supervised Learning
+
+(Training with Labelled Data → Input → Output already known)
+
+Used for prediction, classification, forecasting.
+
+📌 Two types:
+Type	              Output
+Regression	        Continuous value (price, temperature)
+Classification	    Categories/Classes (spam/not spam, disease/healthy)
+
+
+A. Regression Algorithms 📈
+
+| Algorithm | Concept | When to Use |
+|---|---|
+| Linear Regression | Fits straight line to data | Simple relationships |
+| Multiple Linear Regression | Many features | Multi-variable prediction |
+| Polynomial Regression | Fits curve (higher degree) | Non-linear patterns |
+| Ridge Regression | L2 Regularization | Avoid overfitting |
+| Lasso Regression | L1 Regularization | Feature selection |
+| ElasticNet | Ridge + Lasso mix | When need both control & selection |
+| Support Vector Regression (SVR) | Margin-based regression | Small-medium dataset, non-linear |
+| Decision Tree Regressor | Tree split on features | Interpretability |
+| Random Forest Regressor | Many trees voting | High accuracy, stable |
+| Gradient Boosting Regressor | Boosting trees step-wise | Strong for tabular data |
+| XGBoost/LGBM/CatBoost | Optimized boosting | Kaggle winning models |
+| KNN Regression | Based on nearest points | Small datasets, simple |
+| Bayesian Regression | Probabilistic approach | Uncertainty estimation |
+
+B. Classification Algorithms 🧾
+
+| Algorithm | Concept | Where used |
+|---|---|
+| Logistic Regression | Probability of class | Spam/not spam |
+| K-Nearest Neighbors (KNN) | Class by neighbors | Small data |
+| Decision Tree Classifier | Tree splits | Easy to understand |
+| Random Forest Classifier | Many trees → voting | High accuracy |
+| Gradient Boosting Classifier | Boosting errors | Strong performance |
+| XGBoost/LGBM/CatBoost | Advanced boosting | Kaggle top scores |
+| Support Vector Machine (SVM) | Best separating margin | High-dimensional data |
+| Naive Bayes | Based on probability | Text/sentiment classification |
+| Neural Networks (Basic MLP) | Multi-layer perceptron | When data large & complex |
+
+
+2️⃣ Unsupervised Learning
+
+(No labels → model learns patterns itself)
+
+Used for structure discovery, segmentation, compression.
+
+A. Clustering Algorithms
+
+| Algorithm | Concept | Use Cases |
+|---|---|
+| K-Means | Groups data into K clusters | Customer segmentation |
+| Hierarchical Clustering | Tree-like clustering | Dendrogram analysis |
+| DBSCAN | Density based | Irregular clusters, outliers |
+| Mean Shift | Peak/centroid based | Arbitrary shape clusters |
+| Gaussian Mixture Models (GMMs) | Probabilistic clusters | Soft clustering |
+
+
+B. Dimensionality Reduction
+
+| Algorithm | Concept | Use |
+|---|---|
+| PCA (Principal Component Analysis) | Reduce features using variance | Speed up ML |
+| SVD | Matrix decomposition | Recommendation systems |
+| t-SNE | Visualization in 2D/3D | Image/text embeddings |
+| UMAP | Faster, preserves structure | Deep learning embeddings |
+
+
+3️⃣ Semi-Supervised Learning
+
+(When few labelled + many unlabelled samples)
+
+Algorithms include:
+
+Self Training
+
+Label Propagation
+
+Label Spreading
+
+Semi-supervised SVM
+
+Used when labeling is expensive → medical images, NLP datasets.
+
+4️⃣ Reinforcement Learning (RL)
+
+(Agent learns by reward/punishment → trial-and-error)
+
+Algorithms:
+
+Category	Examples
+Value Based	Q-Learning, Deep Q-Network (DQN)
+Policy Based	REINFORCE
+Actor-Critic	A3C, PPO, DDPG
+
+Used in games, robotics, self-driving, optimization systems.
+
+5️⃣ Ensemble Learning (Very Important!)
+
+Combines multiple models for better performance.
+
+Technique	Examples
+Bagging	Random Forest
+Boosting	XGBoost, LightGBM, CatBoost
+Stacking	Multiple models stacked
+Voting	Majority voting classifier
+
+
+🧠 Summary for Your Learning Path
+Stage	What You Learn First
+Beginner	Linear/Logistic Regression, KNN, Decision Trees
+Intermediate	Random Forest, SVM, Naive Bayes
+Advanced	XGBoost, CatBoost, PCA, GMM
+Expert	Reinforcement + Ensemble + Applied Projects
+
+
